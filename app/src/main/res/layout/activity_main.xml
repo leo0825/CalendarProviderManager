@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+ <TextView
+     android:id="@+id/tv_events"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"/>
+
+    <CheckBox
+        android:id="@+id/cb_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="alarm"/>
+
+   <EditText
+       android:id="@+id/edt_input_event_title"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="input event title for insert or query"/>
+
+   <EditText
+       android:id="@+id/edt_input_event_description"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="input event description for insert or query"/>
+
+    <EditText
+        android:id="@+id/edt_input_event_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input event id for update or delete"
+        />
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add"/>
+
+
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="delete"/>
+
+
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"/>
+
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="query"/>
+
+</LinearLayout>
